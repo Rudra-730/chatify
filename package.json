@@ -7,6 +7,9 @@
     "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "npm run start --prefix backend"
   },
+  "engines": {
+    "node": ">=20"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rudra-730/chatify.git"
@@ -17,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/Rudra-730/chatify/issues"
   },
-  "homepage": "https://github.com/Rudra-730/chatify#readme",
-  "dependencies": {
-    "express": "^5.1.0"
-  }
+  "homepage": "https://github.com/Rudra-730/chatify#readme"
 }
